@@ -2,7 +2,7 @@
 title: Weather Station Update
 date: 2021-06-07 12:00:00
 categories: [Projects, Raspberry Pi]
-tags: [Weather Station, Python, Projects, Raspberry Pi]
+tags: [weather station, python, projects, raspberry pi]
 ---
 
 

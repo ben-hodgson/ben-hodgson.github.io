@@ -2,7 +2,7 @@
 title: Weather Station
 date: 2021-05-31 12:00:00
 categories: [Projects, Raspberry Pi]
-tags: [Weather Station, Python, Projects, Raspberry Pi]
+tags: [weather station, python, projects, raspberry pi]
 ---
 
 I have been working on a weather station for a little while, longer than I’d have wanted but with other work and getting the money together to buy the parts its taken a while. I have had a DHT11 plugged into a breadboard and connected to a Raspberry Pi Zero W for a few months. I have written a program in python to gather the temperature and humidity every 30 minutes. It then writes this data to a .xlsx file.

@@ -2,7 +2,7 @@
 title: August Update
 date: 2021-08-03 12:00:00
 categories: [Blog]
-tags: [Blog]
+tags: [blog, rambling]
 ---
 
 ## Update on where I am.
