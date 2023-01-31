@@ -7,10 +7,10 @@ tags: [bash, scripts]
 
 As I tend to have things installed though multiple package managers on my Linux installs I created this scripts to update them all. It will update then upgrade the apt packages, then update the snap packages, then update the flatpaks, and then run an autoclean and autoremove. I added headers so its easy to see what part it is doing.
 
-This is what it looks like when run
-![](https://raw.githubusercontent.com/ben-hodgson/things/main/update_screenshot.png){: w="534" h:"881"}
+This is what it looks like when run:  
+![](https://raw.githubusercontent.com/ben-hodgson/things/main/update_screenshot.png){: .normal w="534" h:"881"}
 
-This is the script for it
+This is the script for it:  
 ```bash
 #!/bin/bash
 RED='\033[0;31m'
@@ -63,4 +63,4 @@ echo ""
 sudo apt autoclean -y
 ```
 
-I named it `update` and moved it into the `/usr/bin folder` so I only have to input update in the cli and it will run all of them together.
+I named it `update` and moved it into the `/usr/bin` folder so I only have to input update in the cli and it will run all of them together.
