@@ -49,7 +49,7 @@ I will be using the breadbaord to hold the Raspberry Pi Pico and the DHT22 modul
 
 ---
 
-## Jumper Cables
+## Jumper Cables (DuPont Cables)
 
 ![cables](cables.jpg){: .centre w="439.5" h:"269.625"}
 _cables_
@@ -92,6 +92,22 @@ The 10k resistor will need to be placed between pins 1 (VCC) and 2 (DATA).
 _Thonny IDE_
 
 While you could use any **I**ntegrated **D**evelopment **E**nvironment (IDE) and then copy the files to the Raspberry Pi Pico W I will be using Thonny as this allows us to connect to the Pico W and save directly to the Pico W, as well as allowing us to search and install any library's we might need onto the Pico W too.
+
+### Moduels
+With in Thonny we can install the library's and packages that we need.
+In this project I will be needing to install [pizozero](https://github.com/RaspberryPiFoundation/picozero) this will allow me easily use the onboard LED amongst other things.
+
+To install I will go to the Tools>Manage packages... in the Thonny toolbar
+![Tools>Manage Packages...](pico_managePackage.png)
+ 
+Then in the box that shows up I will search for picozero and click on the install button.
+![Install picozero](pico_picoZero.png)
+
+Then to be abel to use the library I can just import it in python
+
+```python
+import picozero
+```
 
 ---
 
@@ -293,7 +309,7 @@ The final file should look something like this:
 ```python
 import machine
 from machine import Pin
-from picozero import pico_led, LED
+from picozero import pico_led
 from time import sleep
 import network
 import socket
