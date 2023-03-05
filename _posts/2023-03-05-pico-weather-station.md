@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pico Weather Station
-date: 2023-02-17 22:30:04
+date: 2023-03-05 12:28:00
 img_path: /assets/
 categories: [Projects, Raspberry Pi]
 tags: [raspberry pi, pico, weather, station, weather station, dht22]
