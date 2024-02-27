@@ -1,0 +1,31 @@
+---
+layout: post
+title: Flipper Zero Marauder
+date: 2024-02-27 12:28:00
+img_path: /assets/
+categories: [Projects, Flipper Zero]
+tags: [Flipper Zero, Marauder, ESP32, nRF24]
+---
+
+Not long ago I aquired a [Flipper Zero](https://flipperzero.one/)and while you can buy a WiFi devboard for it that contains an ESP32 on it to run deauth attacks as well as other things. I decided to make one.  
+
+---
+
+## Equipment
+
+So for this project I will be using:  
+
+1. [ESP32-WROOM-32](https://www.amazon.co.uk/dp/B09QWW3JGW?psc=1&ref=ppx_yo2ov_dt_b_product_details) 
+2. [nRF24L01](https://www.amazon.co.uk/dp/B07PQPFTWZ?psc=1&ref=ppx_yo2ov_dt_b_product_details)  
+3. [PCB Prototype Kit](https://www.amazon.co.uk/dp/B091SHMCRK?psc=1&ref=ppx_yo2ov_dt_b_product_details)  
+4. [Headers](https://www.amazon.co.uk/dp/B07CWSXY7P?psc=1&ref=ppx_yo2ov_dt_b_product_details)  
+5. [26 AWG wires](https://www.amazon.co.uk/TUOFENG-Hookup-Wires-6-Different-Colored/dp/B0C2Z35N96/ref=sr_1_6?crid=2GD1L208OXZYF&dib=eyJ2IjoiMSJ9.2yGtKs2aNDP-_vG1ljrOnN6r8QhMB8Gg-_OFsztg7U1LwRMGMhzI6oFtj8hhvYNN4o4ocv2AjOQNl1qod6_qFaX9CjTIocdafDtaxPUMS2V-EOca0ZaBfo4YBO1vFxnKPmns3z3rw87mE1sJV5uwKdby5y20G-KGHmcBXp3BvsM3sx5bAIiUYwfui_HxEyTX-La33tIwomta5Oj3_nhJGGaUWR_sZOYiq0RjQVafI15cPzDHJ8ZWV0obUDrua-EkIDilUBBmJhThpXMfbs5ZgLvcrUEQa_XdLlQydgWXdXw.TqdPdEjY8nrbiODKdMZaeeIdGefWcVrAr0jbTigcLo8&dib_tag=se&keywords=26%2Bawg&qid=1708043132&sprefix=26%2Bawg%2Caps%2C211&sr=8-6&th=1)
+6. [10kΩ Resistors](https://shop.pimoroni.com/products/maker-essentials-leds-resistors) (if using a DHT sensor and not module)
+
+---
+
+## ESP32
+
+![Raspberry Pi Pico W](rPiPico.jpg){: .centre w="477.75" h:"226.875"}
+_Raspberry Pi Pico W_
+
